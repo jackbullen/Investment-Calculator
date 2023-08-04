@@ -10,6 +10,7 @@ Examples:
 - Tech: 'strategy': {"NASDAQ:AAPL":0.3, "NASDAQ:GOOG":0.3, "NASDAQ:MSFT":0.4, "NASDAQ:TSLA":0, "NYSE:GM":1, "NYSE:F":0, "TSE:TD":0, "TSE:BNS":0, "TSE:RY":0}
 - Auto: 'strategy': {"NASDAQ:AAPL":0, "NASDAQ:GOOG":0, "NASDAQ:MSFT":0, "NASDAQ:TSLA":0.3, "NYSE:GM":0.3, "NYSE:F":0.4, "TSE:TD":0, "TSE:BNS":0, "TSE:RY":0}
 - Banking: 'strategy': {"NASDAQ:AAPL":0, "NASDAQ:GOOG":0, "NASDAQ:MSFT":0, "NASDAQ:TSLA":0, "NYSE:GM":0, "NYSE:F":0, "TSE:TD":0.3, "TSE:BNS":0.3, "TSE:RY":0.4}
+- Mixed: 'strategy': {"NASDAQ:AAPL":0.1, "NASDAQ:GOOG":0.1, "NASDAQ:MSFT":0.1, "NASDAQ:TSLA":0.3, "NYSE:GM":0, "NYSE:F":0, "TSE:TD":0, "TSE:BNS":0.2, "TSE:RY":0.2}
 
 ## How it works
 Securities data is fetched from Google Finance and saved into speadsheet using the apps script file dataGeneration. The data is downloaded in csv format and used to create investment projections.
