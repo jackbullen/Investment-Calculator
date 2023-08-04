@@ -7,9 +7,9 @@ Modify the investor variable in main.py, save, and re-run.
 
 The strategy gives the percentage of investment amount going towards each stock.
 Examples:
-- 'strategy': {"NASDAQ:AAPL":0.3, "NASDAQ:GOOG":0.3, "NASDAQ:MSFT":0.4, "NASDAQ:TSLA":0, "NYSE:GM":1, "NYSE:F":0, "TSE:TD":0, "TSE:BNS":0, "TSE:RY":0}
-- 'strategy': {"NASDAQ:AAPL":0, "NASDAQ:GOOG":0, "NASDAQ:MSFT":0, "NASDAQ:TSLA":0.3, "NYSE:GM":0.3, "NYSE:F":0.4, "TSE:TD":0, "TSE:BNS":0, "TSE:RY":0}
-- 'strategy': {"NASDAQ:AAPL":0, "NASDAQ:GOOG":0, "NASDAQ:MSFT":0, "NASDAQ:TSLA":0, "NYSE:GM":0, "NYSE:F":0, "TSE:TD":0.3, "TSE:BNS":0.3, "TSE:RY":0.4}
+- Tech: 'strategy': {"NASDAQ:AAPL":0.3, "NASDAQ:GOOG":0.3, "NASDAQ:MSFT":0.4, "NASDAQ:TSLA":0, "NYSE:GM":1, "NYSE:F":0, "TSE:TD":0, "TSE:BNS":0, "TSE:RY":0}
+- Auto: 'strategy': {"NASDAQ:AAPL":0, "NASDAQ:GOOG":0, "NASDAQ:MSFT":0, "NASDAQ:TSLA":0.3, "NYSE:GM":0.3, "NYSE:F":0.4, "TSE:TD":0, "TSE:BNS":0, "TSE:RY":0}
+- Banking: 'strategy': {"NASDAQ:AAPL":0, "NASDAQ:GOOG":0, "NASDAQ:MSFT":0, "NASDAQ:TSLA":0, "NYSE:GM":0, "NYSE:F":0, "TSE:TD":0.3, "TSE:BNS":0.3, "TSE:RY":0.4}
 
 ## How it works
 Securities data is fetched from Google Finance and saved into speadsheet using the apps script file dataGeneration. The data is downloaded in csv format and used to create investment projections.
