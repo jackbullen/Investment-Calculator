@@ -1,6 +1,7 @@
 # Investment-Calculator
 An investment calculator.
 
+## How to use
 Download the app and run: python3 ./main.py
 
 Modify the investor variable in main.py, save, and re-run.
