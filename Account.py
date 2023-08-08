@@ -11,5 +11,5 @@ class Account:
         self.total_invested = 0
         self.total_saved = 0
 
-
+# Move some of the code from main.py to here as class methods
 
